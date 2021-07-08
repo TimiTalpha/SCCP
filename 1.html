@@ -14,9 +14,8 @@
             const button = document.getElementById('Add');
             const output = document.getElementById('output');
           
-            textarea.addEventListener('input', () => {
-               const text = textarea.value;
-               output.textContent = text.toUpperCase(0);
+            button.addEventListener('click', () => {
+               output.textContent = textarea.value;
             });
         </script>
     </body>
